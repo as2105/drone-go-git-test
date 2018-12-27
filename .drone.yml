@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 workspace:
   base: /go
-  path: src/github.com/as2105/go-drone-hello-world
+  path: src/github.com/as2105/drone-go-git-test
 steps:
   - name: test
     image: golang
