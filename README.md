@@ -1,0 +1,1 @@
+# drone-go-git-test
