@@ -4,6 +4,9 @@ name: default
 workspace:
   base: /go
   path: src/github.com/as2105/drone-go-git-test
+  when:
+    event: push
+    branch: master
 steps:
   - name: test
     image: golang
